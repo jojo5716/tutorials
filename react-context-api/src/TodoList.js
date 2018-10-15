@@ -44,6 +44,7 @@ class TodoList extends React.Component {
             list: this.state.list,
             deleteCallback: this.deleteItem
         }
+
         return (
             <ToDoContext.Provider value={valueProvider}>
                 <div id="myDIV" className="header">

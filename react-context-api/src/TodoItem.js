@@ -4,11 +4,6 @@ import { ToDoContext } from './contexts/';
 
 
 class TodoItem extends React.PureComponent {
-    consumer(list) {
-        console.log(list)
-    }
-
-
     render() {
         return (
             <ul>
